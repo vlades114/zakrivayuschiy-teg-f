@@ -156,7 +156,7 @@
 
 .card__buttons {
   display: flex;
-  padding-block-end: 18px;
+  padding-block-end: 17px;
   justify-content: flex-end;
   align-items: flex-start;
 }
@@ -179,7 +179,6 @@
   position: relative;
   font-family: var(--font-accent);
   font-size: var(--font-size-like-button);
-  /* line-height: 90%; */
   color: var(--text-color);
   border: 2px solid var(--border-color);
   background: var(--bg-color);
@@ -206,7 +205,7 @@
 }
 
 .button:hover::before {
-  transform: scaleX(100%);
+  transform: scaleX(1);
 }
 
 .card__like-button {
