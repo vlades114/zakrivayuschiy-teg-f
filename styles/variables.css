@@ -1,1 +1,41 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --section-width: 100vw;
+
+  --font-general: 'Inter-Variable', sans-serif;
+  --font-accent: 'PressStart2P', sans-serif;
+
+  --font-size-general: 18px;
+  --font-weight-general: 400;
+  --font-weight-title: 700;
+
+  --font-size-base: 14px;
+  --font-size-image-label: var(--font-size-base);
+  --font-size-like-button: var(--font-size-base);
+  --font-size-dialog: var(--font-size-base);
+
+  --text-color: #000;
+  --text-image-label-stroke: #fff;
+  --button-text-color: #fff;
+
+  --border-color: #000;
+
+  --bg-color: #fff;
+  --bg-image: repeating-linear-gradient(
+      90deg,
+      #d3d3d3 0 2px,
+      rgb(211 211 211 / 0) 2px 4px
+    ),
+    repeating-linear-gradient(
+      180deg,
+      #d3d3d3 0 2px,
+      rgb(211 211 211 / 0) 2px 4px
+    ),
+    linear-gradient(180deg, #e7e7e7 0.01%, #1a1a1a 100%);
+
+  /* SVG */
+  
+  --like-icon-contour: #000;
+  --like-icon-fill: #ff0000;
+  --like-icon-sparks: #ff0000;
+}
