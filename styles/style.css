@@ -156,14 +156,17 @@
 
 .card__buttons {
   display: flex;
-  padding-block-end: 17px;
+  padding-block-end: 25px;
   justify-content: flex-end;
-  align-items: flex-start;
+  align-items: stretch;
+  gap: 6px;
 }
 
 .card__icon-button {
+  font-family: var(--font-accent);
   cursor: pointer;
   border: 2px solid transparent;
+  transition: border 0.3s ease;
 }
 
 .card__icon-button:focus {
@@ -172,7 +175,6 @@
 
 .card__icon-button:focus-visible {
   border: 2px solid var(--text-color);
-  transition: border 0.3s ease;
 }
 
 .button {
@@ -183,6 +185,7 @@
   border: 2px solid var(--border-color);
   background: var(--bg-color);
   cursor: pointer;
+  transition: box-shadow 0.3s ease;
 }
 
 .button:focus {
@@ -191,7 +194,6 @@
 
 .button:focus-visible {
   box-shadow: 2px 2px var(--text-color);
-  transition: box-shadow 0.3s ease;
 }
 
 .button::before {
@@ -210,7 +212,6 @@
 
 .card__like-button {
   margin-inline-end: 25px;
-  padding-block: 10px;
   min-inline-size: 130px;
 }
 
